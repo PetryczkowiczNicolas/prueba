@@ -1,75 +1,121 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  
+}
+.body {
+  padding: 0;
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
 }
 /*navegacio*/
-nav{
-    background-color: rgb(2, 2, 2);
-    padding: 30px;
-    
+nav {
+  background-color: rgb(2, 2, 2);
+  padding: 30px;
+  
 }
-nav ul{
-    text-align: right;
+nav ul {
+  text-align: right;
 }
-nav ul li{
-    display: inline;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 5px;
-    
+nav ul li {
+  display: inline;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  
 }
 nav ul li a {
-list-style-type: none;
-text-align: center;
-color: rgb(252, 252, 252);
+  list-style-type: none;
+  text-align: center;
+  color: rgb(252, 252, 252);
 
 }
+
 
 /*main*/
-.Portada {
-    background-color: bisque;
-    display: inline-block;
-    width: 100%;
+
+/*.Portada {
+  background-color: bisque;
+  display: inline-block;
+  width: 100%;
 }
 .Portada__content {
-    display: block;
-    width: 49%;
-    padding: 50px;
-    
-    
+  
+  width: 49%;
+  padding: 50px;
 }
 .Portada img {
-    
-    display: flex;
-    width: 49%;
-    padding: 50px;
-    
+  display: flex;
+  flex-direction: row-reverse;
+  width: 49%;
+  padding: 50px;
+}*/
+.card {
+  width: 300px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+
+}
+/*class row*/
+.row {
+margin: 0;
 }
 
 /*footer*/
-.pie { 
-    background-color: rgb(2, 2, 2);
-    padding: 30px;
-    font-size: 15px;
-    border-radius: 5px;
+.pie {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  position: relative;
+
 
 }
- .pie ul li {
-    display: inline;
-    border: 2px solid rgb(255, 255, 255);
-    color: rgb(252, 252, 252);
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 5px;
- }   
+.pie ul li {
+ 
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(252, 252, 252);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.carousel-inner {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/*quienes somos*/
+section {
+  background-color: rgb(252, 252, 252);
+  margin: top;
+  display: flexbox;
+  font-family: "Roboto", sans-serif;;
+}
+/*navbar*/
+.navbar-brand {
+  height: 50px;
+  object-fit: cover; 
+}
